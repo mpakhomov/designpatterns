@@ -1,12 +1,19 @@
 package com.mpakhomov.observer;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mpakhomo
- * Date: 4/23/13
- * Time: 4:28 PM
- * To change this template use File | Settings | File Templates.
+ * Generic Observer interface (Subscriber)
+ *
+ * @author mpakhomov
+ * @since 8/30/15
+ * @param <E> the type of the data passed from subject to observers
  */
-public interface Observer {
-    public void update(float temp, float humidity, float pressure);
+@FunctionalInterface
+public interface Observer<E> {
+    /**
+     * the observers (subscribers) get notifications via this function call
+     *
+     * @param subject reference to the subject (publisher)
+     * @param data data to be passed to observers.
+     */
+    void notify(Subject<E> subject, E data);
 }

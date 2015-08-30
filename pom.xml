@@ -12,6 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <compiler.argument>-Xlint:unchecked</compiler.argument>
     </properties>
 
     <dependencies>
@@ -39,6 +40,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <compilerArgument>${compiler.argument}</compilerArgument>
                 </configuration>
             </plugin>
 

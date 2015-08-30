@@ -1,14 +1,22 @@
 package com.mpakhomov.observer;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mpakhomo
- * Date: 4/23/13
- * Time: 4:25 PM
- * To change this template use File | Settings | File Templates.
+ * Generic Subject interface (Publisher). It supports both push and pull-like notifications.
+ *
+ * <p>For pull-like notifications, an observer receives a reference to the {@link com.mpakhomov.observer.Subject}
+ * as a parameter in {@link com.mpakhomov.observer.Observer#notify(Subject, Object)}. Hence, the actual data
+ * can be be pulled as simple as {@code subject.getData()}
+ *
+ * @author mpakhomov
+ * @since 8/30/15
  */
-public interface Subject {
-    public void registerObserver(Observer o);
-    public void removeObserver(Observer o);
-    public void notifyObservers();
+public interface Subject<E> {
+
+    public void addObserver(Observer<E> observer);
+    public void removeObserver(Observer<E> observer);
+    public void pushNotify(E data);
+    public void pullNotify();
+
+    public E getData();
+    public void setData(E data);
 }

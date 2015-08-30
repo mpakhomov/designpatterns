@@ -1,4 +1,4 @@
-package com.mpakhomov.observer;
+package com.mpakhomov.observer.hfdp.weatherstation;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,7 +7,7 @@ package com.mpakhomov.observer;
  * Time: 5:07 PM
  * To change this template use File | Settings | File Templates.
  */
-public class WeatherStation {
+public class AppWeatherStation {
 
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();

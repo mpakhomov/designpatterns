@@ -1,4 +1,4 @@
-package com.mpakhomov.observer;
+package com.mpakhomov.observer.hfdp.weatherstation;
 
 import java.util.Observable;
 import java.util.Observer;
