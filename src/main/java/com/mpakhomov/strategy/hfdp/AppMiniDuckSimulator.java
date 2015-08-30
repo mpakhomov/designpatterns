@@ -7,7 +7,7 @@ package com.mpakhomov.strategy.hfdp;
  * Time: 2:56 PM
  * To change this template use File | Settings | File Templates.
  */
-public class MiniDuckSimulator {
+public class AppMiniDuckSimulator {
 
     public static void main(String[] args) {
         Duck mallardDuck = new MallardDuck();

@@ -3,7 +3,7 @@ package com.mpakhomov.builder;
 import java.sql.Date;
 
 /**
- * Builder is a creation design pattern from the GoF book. It's useful when object configuration is complex
+ * Builder is a creational design pattern from the GoF book. It's useful when object configuration is complex
  * and / or there too many arguments in the constructor
  *
  * @author mpakhomov
