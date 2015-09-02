@@ -1,15 +1,19 @@
-package com.mpakhomov.decorator;
+package com.mpakhomov.decorator.hfdp;
 
-public class StarbuzzCoffee {
+public class AppStarbuzzCoffee {
 
     public static void main(String[] args) {
         Beverage espresso = new Espresso();
         printBeverage(espresso);
 
-        Beverage beverage2 = new DarkRoast();
-        beverage2 = new Mocha(beverage2);
-        beverage2 = new Mocha(beverage2);
-        beverage2 = new Whip(beverage2);
+        Beverage beverage2 = new Whip(
+                                new Mocha(
+                                    new Mocha(
+                                        new DarkRoast())));
+//        new DarkRoast();
+//        beverage2 = new Mocha(beverage2);
+//        beverage2 = new Mocha(beverage2);
+//        beverage2 = new Whip(beverage2);
         printBeverage(beverage2);
 
         Beverage beverage3 = new HouseBlend();

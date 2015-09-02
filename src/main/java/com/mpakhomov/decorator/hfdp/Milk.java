@@ -1,14 +1,14 @@
-package com.mpakhomov.decorator;
+package com.mpakhomov.decorator.hfdp;
 
-public class Whip extends CondimentDecorator {
+public class Milk extends CondimentDecorator {
     Beverage beverage;
 
-    public Whip(Beverage beverage) {
+    public Milk(Beverage beverage) {
         this.beverage = beverage;
     }
 
     public String getDescription() {
-        return beverage.getDescription() + ", Whip";
+        return beverage.getDescription() + ", Milk";
     }
 
     public double cost() {

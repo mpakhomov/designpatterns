@@ -1,4 +1,4 @@
-package com.mpakhomov.decorator;
+package com.mpakhomov.decorator.hfdp;
 
 public abstract class CondimentDecorator extends Beverage {
     public abstract String getDescription();

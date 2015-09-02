@@ -1,4 +1,4 @@
-package com.mpakhomov.decorator;
+package com.mpakhomov.decorator.hfdp;
 
 public class Decaf extends Beverage {
     public Decaf() {

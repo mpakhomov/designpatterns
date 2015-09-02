@@ -1,7 +1,12 @@
-package com.mpakhomov.decorator;
+package com.mpakhomov.decorator.hfdp;
 
+/**
+ * It's a Component in terms of Decorator design pattern
+ */
 public abstract class Beverage {
+
     String description = "Unknown Beverage";
+
     protected BeverageSize size = BeverageSize.GRANDE;
 
     public BeverageSize getBeverageSize() {

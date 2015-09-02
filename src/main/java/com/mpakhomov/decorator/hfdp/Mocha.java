@@ -1,4 +1,4 @@
-package com.mpakhomov.decorator;
+package com.mpakhomov.decorator.hfdp;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;
