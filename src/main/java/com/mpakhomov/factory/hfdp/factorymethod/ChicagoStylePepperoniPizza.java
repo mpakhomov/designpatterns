@@ -1,15 +1,8 @@
-package com.mpakhomov.factory.pizzafm;
+package com.mpakhomov.factory.hfdp.factorymethod;
 
-/**
- * Created with IntelliJ IDEA.
- * User: mpakhomo
- * Date: 4/25/13
- * Time: 3:28 PM
- * To change this template use File | Settings | File Templates.
- */
-public class CaliforniaStyleVeggiePizza extends Pizza {
-    public CaliforniaStyleVeggiePizza() {
-        name = "California Deep Dish Veggie Pizza";
+public class ChicagoStylePepperoniPizza extends Pizza {
+    public ChicagoStylePepperoniPizza() {
+        name = "Chicago Style Pepperoni Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
@@ -17,6 +10,7 @@ public class CaliforniaStyleVeggiePizza extends Pizza {
         toppings.add("Black Olives");
         toppings.add("Spinach");
         toppings.add("Eggplant");
+        toppings.add("Sliced Pepperoni");
     }
 
     @Override

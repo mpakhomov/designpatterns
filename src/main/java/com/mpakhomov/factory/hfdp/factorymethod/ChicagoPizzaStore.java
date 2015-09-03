@@ -1,4 +1,4 @@
-package com.mpakhomov.factory.pizzafm;
+package com.mpakhomov.factory.hfdp.factorymethod;
 
 public class ChicagoPizzaStore extends PizzaStore {
 

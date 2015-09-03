@@ -1,6 +1,6 @@
-package com.mpakhomov.factory.pizzas;
+package com.mpakhomov.factory.hfdp.simplefactory;
 
-public class PizzaTestDrive {
+public class AppPizzaTestDrive {
 
     public static void main(String[] args) {
         SimplePizzaFactory factory = new SimplePizzaFactory();

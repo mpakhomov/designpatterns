@@ -1,4 +1,4 @@
-package com.mpakhomov.factory.pizzas;
+package com.mpakhomov.factory.hfdp.simplefactory;
 
 public class PepperoniPizza extends Pizza {
     public PepperoniPizza() {

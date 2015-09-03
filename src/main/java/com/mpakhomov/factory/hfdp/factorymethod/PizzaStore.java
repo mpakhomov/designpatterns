@@ -1,4 +1,4 @@
-package com.mpakhomov.factory.pizzas;
+package com.mpakhomov.factory.hfdp.factorymethod;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,20 +7,16 @@ package com.mpakhomov.factory.pizzas;
  * Time: 2:34 PM
  * To change this template use File | Settings | File Templates.
  */
-public class PizzaStore {
+abstract public class PizzaStore {
 
-    SimplePizzaFactory factory;
-
-    PizzaStore(SimplePizzaFactory factory) {
-        this.factory = factory;
-    }
-
-    public Pizza orderPizza(String type) {
-        Pizza pizza = factory.createPizza(type);
+    final public Pizza orderPizza(String type) {
+        Pizza pizza = createPizza(type);
         pizza.prepare();
         pizza.bake();
         pizza.cut();
         pizza.box();
         return pizza;
     }
+
+    abstract protected Pizza createPizza(String type);
 }

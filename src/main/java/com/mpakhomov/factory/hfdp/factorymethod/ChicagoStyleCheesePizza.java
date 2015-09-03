@@ -1,13 +1,13 @@
-package com.mpakhomov.factory.pizzafm;
+package com.mpakhomov.factory.hfdp.factorymethod;
 
-public class ChicagoStyleClamPizza extends Pizza {
-    public ChicagoStyleClamPizza() {
-        name = "Chicago Style Clam Pizza";
+public class ChicagoStyleCheesePizza extends Pizza {
+
+    public ChicagoStyleCheesePizza() {
+        name = "Chicago Style Deep Dish Cheese Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
         toppings.add("Shredded Mozzarella Cheese");
-        toppings.add("Frozen Clams from Chesapeake Bay");
     }
 
     @Override
