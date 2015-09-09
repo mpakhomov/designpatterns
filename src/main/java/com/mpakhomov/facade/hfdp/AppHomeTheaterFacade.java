@@ -1,6 +1,6 @@
-package com.mpakhomov.facade;
+package com.mpakhomov.facade.hfdp;
 
-public class HomeTheaterFacade {
+public class AppHomeTheaterFacade {
     Amplifier amp;
     Tuner tuner;
     DvdPlayer dvd;
@@ -10,14 +10,14 @@ public class HomeTheaterFacade {
     Screen screen;
     PopcornPopper popper;
 
-    public HomeTheaterFacade(Amplifier amp,
-                             Tuner tuner,
-                             DvdPlayer dvd,
-                             CdPlayer cd,
-                             Projector projector,
-                             Screen screen,
-                             TheaterLights lights,
-                             PopcornPopper popper) {
+    public AppHomeTheaterFacade(Amplifier amp,
+                                Tuner tuner,
+                                DvdPlayer dvd,
+                                CdPlayer cd,
+                                Projector projector,
+                                Screen screen,
+                                TheaterLights lights,
+                                PopcornPopper popper) {
 
         this.amp = amp;
         this.tuner = tuner;

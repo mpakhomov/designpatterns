@@ -17,5 +17,8 @@ public class EnumerationIteratorTestDrive {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+        for (Object o : v) {
+
+        }
     }
 }

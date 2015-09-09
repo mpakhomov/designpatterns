@@ -1,4 +1,4 @@
-package com.mpakhomov.adapter.ducks;
+package com.mpakhomov.adapter.hfdp.ducks;
 
 /**
  * Created with IntelliJ IDEA.

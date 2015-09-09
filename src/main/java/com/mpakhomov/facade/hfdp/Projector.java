@@ -1,4 +1,4 @@
-package com.mpakhomov.facade;
+package com.mpakhomov.facade.hfdp;
 
 public class Projector {
     String description;

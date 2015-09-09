@@ -1,4 +1,4 @@
-package com.mpakhomov.facade;
+package com.mpakhomov.facade.hfdp;
 
 public class HomeTheaterTestDrive {
 
@@ -12,8 +12,8 @@ public class HomeTheaterTestDrive {
         Screen screen = new Screen("Theater Screen");
         PopcornPopper popper = new PopcornPopper("Popcorn Popper");
 
-        HomeTheaterFacade homeTheater =
-                new HomeTheaterFacade(amp, tuner, dvd, cd,
+        AppHomeTheaterFacade homeTheater =
+                new AppHomeTheaterFacade(amp, tuner, dvd, cd,
                         projector, screen, lights, popper);
 
         homeTheater.watchMovie("Raiders of the Lost Ark");

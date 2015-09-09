@@ -1,4 +1,4 @@
-package com.mpakhomov.adapter.ducks;
+package com.mpakhomov.adapter.hfdp.ducks;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package com.mpakhomov.adapter.ducks;
  * Date: 4/27/13
  * Time: 5:22 PM
  */
-public class DuckTestDrive {
+public class AppDuckTestDrive {
     public static void main(String[] args) {
         MallardDuck duck = new MallardDuck();
         WildTurkey turkey = new WildTurkey();
