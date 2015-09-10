@@ -1,4 +1,4 @@
-package com.mpakhomov.visitor;
+package com.mpakhomov.visitor.hfdp;
 
 /**
  * Created with IntelliJ IDEA.
